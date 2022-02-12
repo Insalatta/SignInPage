@@ -7,13 +7,13 @@ body{
 }
 .frame{
     position:absolute;
-    background-color:white;
+    
     display:flex;
     justify-content:center;
     flex-direction:column;
     align-items:center;
     border-radius:5px;
-    box-shadow:2px 2px 2px 1.5px gray;
+    box-shadow:1px 1px 5px 1px grey;
     padding:30px;
 }
 .st{
@@ -23,7 +23,9 @@ img{
     width:100%;
     height:100vh;
     opacity:0.9;
+    
 }
+
 h2{
    
     font-weight:bold;
@@ -40,8 +42,7 @@ hr{
 #result{
     padding:10px;
     border-radius:3px;
-    box-shadow:2px 1px 1px 1px grey;
-    background-color:white;
+    box-shadow:1px 1px 5px 1px grey;
     position:absolute;
     margin-bottom:500px;
     opacity:0;
